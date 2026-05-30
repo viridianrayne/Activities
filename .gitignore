@@ -1,0 +1,69 @@
+# ============================================================
+#  .gitignore — Unreal Engine
+#  Sube el código fuente y configuración; excluye binarios,
+#  caché y archivos generados automáticamente.
+# ============================================================
+
+# ------ Directorios generados / compilados ------------------
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# ------ Archivos de Visual Studio ---------------------------
+.vs/
+*.suo
+*.user
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# ------ Archivos de Rider / JetBrains -----------------------
+.idea/
+*.DotSettings.user
+
+# ------ Archivos de Xcode (Mac) -----------------------------
+*.xcworkspace
+*.xcodeproj
+
+# ------ Plugins: excluye binarios pero conserva fuente ------
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# ------ Archivos de crash y logs ----------------------------
+*.log
+*.dmp
+Saved/Crashes/
+Saved/Logs/
+
+# ------ Thumbnails y temporales del OS ----------------------
+*.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------ Archivos de swap de editores de texto ---------------
+*.swp
+*.bak
+*.orig
+*.tmp
+
+# ============================================================
+#  LO QUE SÍ SE SUBE (ya incluido por defecto)
+#  Config/, Content/, Source/, *.uproject
+# ============================================================
+
+# ============================================================
+#  EJECUTABLE EMPAQUETADO
+#  Si generaste un paquete (Package Project), descomenta
+#  y ajusta la ruta según tu plataforma:
+# ============================================================
+
+# Solo el ejecutable de Windows:
+# !PackagedGame/Windows/MiJuego.exe
+# !PackagedGame/Windows/MiJuego/Binaries/Win64/MiJuego.exe
+
+# Solo el ejecutable de Linux:
+# !PackagedGame/Linux/MiJuego
