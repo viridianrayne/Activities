@@ -1,5 +1,5 @@
 # ============================================================
-#  .gitignore — Unreal Engine
+#  .gitignore — Unreal Engine (Generic)
 #  Sube el código fuente y configuración; excluye binarios,
 #  caché y archivos generados automáticamente.
 # ============================================================
@@ -57,8 +57,6 @@ Desktop.ini
 
 # ============================================================
 #  EJECUTABLE EMPAQUETADO
-#  Si generaste un paquete (Package Project), descomenta
-#  y ajusta la ruta según tu plataforma:
 # ============================================================
 
 # Solo el ejecutable de Windows:
